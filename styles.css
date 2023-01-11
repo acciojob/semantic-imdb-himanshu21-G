@@ -1,2 +1,66 @@
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	text-align: center;
+}
+nav {
+	padding: 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+nav div a {
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+summary {
+	margin: 15px 0;
+}
+aside {
+	width: 25%;
+	min-width: max-content;
+	padding-right: 15px;
+}
+main {
+	width: calc(100% - 25%);
+}
+.actors-gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+.actor-card {
+	width:160px;
+	padding: 10px;
+}
+.actor-card img {
+	width: 125px;
+	height: 125px;
+	text-align: center;
+}
+.actor-card h3 {
+	font-size: 18px;
+}
+.actor-card p {
+	font-size: 16px;
+}
+.main-content{
+	display: flex;
+	padding: 15px 0;
+}
+#quote {
+	padding-top: 15px;
+}
+#quote h2{
+	padding-bottom: 10px;
+}
+#quote ul li{
+	padding: 5px 0;
+}
+footer {
+	padding: 10px;
+	text-align: center;
+}
 /* Your CSS Code here. */
