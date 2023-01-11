@@ -50,13 +50,13 @@ main {
 	display: flex;
 	padding: 15px 0;
 }
-quote {
+#quote {
 	padding-top: 15px;
 }
-quote h2{
+#quote h2{
 	padding-bottom: 10px;
 }
-quote ul li{
+#quote ul li{
 	padding: 5px 0;
 }
 footer {
